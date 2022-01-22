@@ -3,9 +3,7 @@ console.log("Tic Tac Toe Game Using HTML,CSS And JAVASCRIPT");
 let music = new Audio("music.mp3");
 let MusicTurn = new Audio("ting.mp3");
 let gameOverMusic = new Audio("gameover.mp3");
-setTimeout(() => {
-    alert("Play this game in computer for bettered comfort..")
-}, 20000);
+
 music.play();
 
 let Turn = "X";
