@@ -1,6 +1,6 @@
 
 function myFunction(x) {
-    if (x.matches) {
+    if (x.matches) {// If media query matches
         setTimeout(() => {
             alert("Play this game in computer for bettered comfort..")
         }, 30000);
