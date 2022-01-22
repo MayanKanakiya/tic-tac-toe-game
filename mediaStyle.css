@@ -1,0 +1,30 @@
+@media screen  and (max-width:800px)
+{
+    .gamecontainer{
+        flex-wrap: wrap;
+        margin-top: 71px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 25vw);
+        grid-template-rows: repeat(3, 25vw);
+    }
+    .gameInfo{
+        padding-top: 20px;
+    }
+    .box {
+        font-size: 10vw;
+    }
+    .line{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav button{
+        margin-top: 15px;
+    }
+}
