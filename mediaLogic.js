@@ -1,5 +1,5 @@
 
-function myFunction() {
+function myFunction(x) {
     if (x.matches) {
         setTimeout(() => {
             alert("Play this game in computer for bettered comfort..")
@@ -7,5 +7,5 @@ function myFunction() {
     }
 
 }
-var x = window.matchMedia("(max-width: 800px)");
-myFunction(x); // Call listener function at run time
+var x = window.matchMedia("(max-width: 800px)")
+myFunction(x) // Call listener function at run time
